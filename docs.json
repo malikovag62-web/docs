@@ -3,11 +3,11 @@
   "theme": "mint",
   "name": "FAQ",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0A84FF",
+    "light": "#0A84FF",
+    "dark": "#0A84FF"
   },
-  "favicon": "/images/favicon-blender.svg",
+  
   "navigation": {
     "groups": [
       {
@@ -20,40 +20,32 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Бот",
+      "href": "https://t.me/BlenderRobot"
     }
   },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+  "appearance": {
+    "strict": true,
+    "default": "dark"
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+  
+  "background": {
+  "color": {
+    "dark": "#0A0A0A"
   }
+},
+  "fonts": {
+    "family": "Inter"
+  },
+  "errors": {
+    "404": {
+      "redirect": false
+    }
+  },
+  "favicon": "/images/favicon-blender.svg"
 }
